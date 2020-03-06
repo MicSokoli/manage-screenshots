@@ -1,10 +1,6 @@
 # manage-screenshots
-Create directories for every when screenshots were taken on my machine, and place the images in the corresponding directories.
-Relies on images having the format 
-`Screenshot from yyyy-MM-dd HH-mm-ss.png`
-
-MM/dd/yyyy HH:mm:ss
-10/03/2017 07:29:46 
+Creates directories for every day when screenshots were taken on working directory, and places the images in corresponding directories.
+Relies on image filenames having the format `Screenshot from yyyy-MM-dd HH-mm-ss.png`
 
 Needs [babashka](https://github.com/borkdude/babashka) to run.
 
